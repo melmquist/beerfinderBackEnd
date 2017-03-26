@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Bud-Light",
+    "company": "Budweiser",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "budlight-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "budlight-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "budlight-12"
+      }
+    ],
+    "type": "light-beer",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "St. Louis, Missouri",
+    "introduced": 1876,
+    "abv": 5
+  },
+  {
+    "name": "Budwieser",
+    "company": "Budweiser",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "bud-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "bud-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "bud-12"
+      }
+    ],
+    "type": "light-beer",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "St. Louis, Missouri",
+    "introduced": 1876,
+    "abv": 4.2
+  },
+  {
+    "name": "Goose Island IPA",
+    "company": "Goose Island Brewery",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "gooseisland-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "gooseisland-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "gooseisland-12"
+      }
+    ],
+    "type": "India Pale Ale",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "Chicago, Illinois",
+    "introduced": 1988,
+    "abv": 5.9
+  },
+  {
+    "name": "Rolling Rock",
+    "company": "Latrobe Brewing Company",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "rollingrock-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "rollingrock-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "rollingrock-12"
+      }
+    ],
+    "type": "American Lager",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "Latrobe, Pennsylvania",
+    "introduced": 1939,
+    "abv": 4.4
+  },
+  {
+    "name": "Shock Top",
+    "company": "Latrobe Brewing Company",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "shocktop-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "shocktop-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "shocktop-12"
+      }
+    ],
+    "type": "Belgian White",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "Fort Collins, Colorado",
+    "introduced": 1939,
+    "abv": 5.2
+  },
+  {
+    "name": "Stella Artois",
+    "company": "Stella Artois",
+    "sizes": [
+      {
+        "type": 1,
+        "price": 2,
+        "image": "stella-1"
+      },
+      {
+        "type": 6,
+        "price": 12,
+        "image": "stella-6"
+      },
+      {
+        "type": 12,
+        "price": 20,
+        "image": "stella-12"
+      }
+    ],
+    "type": "Belgian White",
+    "manufacturer": "Anheuser-Busch Inbev",
+    "city-of-origin": "Leuven, Belgium",
+    "introduced": 1926,
+    "abv": 5.2
+  }
+]
