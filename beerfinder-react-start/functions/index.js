@@ -22,18 +22,23 @@ how to make new each time? --> not use the push method?
 */
 
 exports.createVendor = functions.https.onRequest((req, res) => {
+
+  let vendorRef = admin.database().ref('/vendors');
+
   let vendor = req.body.vendor;
 
   if (req.method !== 'POST') {
     res.status(403).send('Forbidden!');
   } else {
-    admin.database().ref('/vendors').push({vendor: vendor}).then(snapshot => {
+    // vendorRef.child().set({vendor: vendor}).then(snapshot => {
+    vendorRef.push({vendor: vendor}).then(snapshot => {
       // res.redirect(303, snapshot.ref);
       res.status(200);
       res.send(snapshot.ref);
     })
   }
 });
+
 //
 // exports.readVendor = functions.https.onRequest((req, res) => {
 //   let vendorID = req.body.vendorID;
